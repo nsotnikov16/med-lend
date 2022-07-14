@@ -1,0 +1,89 @@
+.homepage-hero-module {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.video_filter {
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.4);
+    width: 100%;
+}
+
+.intro_site .video_filter {
+    background: rgba(200, 249, 255, 0.2);
+}
+
+.section_dark .video_filter {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+.page_has_video.dark .intro p.h1,
+.page_has_video.dark .intro h1,
+.page_has_video.dark .header_right span.link,
+.page_has_video.dark .header_right a.link,
+.page_has_video.dark .header_right a.phone,
+.page_has_video.dark .breadcrumbs ul li a,
+.page_has_video.dark .breadcrumbs ul span.icon,
+.page_has_video.dark .breadcrumbs ul li,
+.page_has_video.dark .header_right a.email,
+.page_has_video.dark .intro_title__links span.link,
+.page_has_video.dark .intro_title__links a.link {
+    color: #fff;
+}
+
+.page_has_video.dark .header_right span.link,
+.page_has_video.dark .header_right a.link,
+.page_has_video.dark .intro_title__links span.link,
+.page_has_video.dark .intro_title__links a.link {
+    border-bottom: 1px solid rgba(255, 255, 255, .5)
+}
+
+.page_has_video.dark .intro .slick-dots li button:after {
+    background: #fff;
+}
+
+
+@supports (object-fit: cover) {
+    .video-container video {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
