@@ -778,7 +778,7 @@ button.lb_button {
 }
 
 .header_fixed.fixed a {
-    color: #333 !IMPORTANT;
+    color: #5A79E9;
 }
 
 .portfolio_main {
@@ -787,7 +787,7 @@ button.lb_button {
 
 .header_fixed.fixed a.link,
 .header_fixed.fixed span.link {
-    color: #8A48B8 !IMPORTANT;
+    color: #5A79E9 !IMPORTANT;
 }
 
 .link.work_a {
@@ -2640,7 +2640,7 @@ p.cit {
 }
 
 .site1 a.phone {
-    color: white;
+    color: #5A79E9;
 }
 
 .site1 span.link,
@@ -2663,6 +2663,7 @@ p.cit {
     margin-right: auto;
     margin-bottom: 15px;
     z-index: 20;
+    font-size: 35px;
 }
 
 .portfolio__description {
@@ -2671,6 +2672,7 @@ p.cit {
     margin-left: auto;
     margin-right: auto;
     z-index: 21;
+    font-size: 18px;
 }
 
 .portfolio .bg {
@@ -2678,7 +2680,7 @@ p.cit {
 }
 
 .portfolio_item a span.bg_img {
-    top: 35%;
+    top: 45%;
     background-position: top center;
     background-size: cover;
 }

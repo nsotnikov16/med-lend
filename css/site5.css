@@ -84,6 +84,10 @@
     margin-left: 12px;
 }
 
+.footer__tel:hover {
+    color: #FDCF84;
+}
+
 @media(max-width: 850px) {
     .footer__container p {
         text-align: center;
