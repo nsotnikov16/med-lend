@@ -1,0 +1,32 @@
+.examples {
+    display: grid;
+    grid-template-columns: 0.65fr 0.3fr;
+    justify-content: space-between;
+
+}
+
+.examples .swiper {
+    width: 100%;
+}
+
+.examples .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.examples .swiper-button-next, .examples .swiper-button-prev {
+    color: #000;
+}
+
+.examples .swiper-button-next::after, .examples .swiper-button-prev::after {
+    font-size: 25px;
+}
+
+.examples .swiper-button-next {
+    
+}
+
+.examples .swiper-button-prev {
+
+}

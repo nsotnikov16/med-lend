@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/swiper.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Медицинский сайт</title>
 </head>
 
@@ -15,250 +18,406 @@
 
 
         <!-- /.intro -->
+        <div class="site1">
 
-        <div class="row  section_dark  intro   "
-            style="background-image:url(template/topmarka/video/image/med.jpg);background-size:cover; background-repeat:no-repeat;background-position:center">
-            <div class="homepage-hero-module">
-                <div class="video-container">
-                    <div class="video_filter"></div>
-                    <video autoplay loop muted playsinline src="template/topmarka/video/med8.mp4"
-                        class="fillWidth"></video>
+            <!-- fix -->
+
+            <div class="row header_fixed">
+                <div class="container">
+                    <div class="row header_row">
+                        <div class="header_left header_logo">
+                            <a href="/" class="logo">
+                                <!-- <img src="template/topmarka/img/svg/logo.svg" alt="ТопМарка"> -->
+                            </a>
+                            <div class="burger burger_menu burger_menu__page">
+                                <p class="label"><span class="burger_title">Меню</span></p>
+                                <span class="burger_body">
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="header_right">
+                            <div class="header_right__col">
+                                <p class="label">Телефон для связи</p>
+                                <p class="big"><a href="tel:89202554914" class="phone">8 (920) 255-49-14</a></p>
+                            </div>
+                            <div class="header_right__col">
+                                <p class="label">Упрощение жизни</p>
+                                <p class="big">
+                                    <span class="scroll link" data-href="#quiz">Расчет проекта</span>
+                                </p>
+                            </div>
+                            <div class="header_right__col">
+                                <p class="big">
+                                    <span class="link" data-fancybox="" data-src="#recall">Заказать звонок</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row section_full intro_full">
 
-                <div class="row intro_full__top">
-                    <div class="row header " id="top">
+            <!-- SECTION-1 -->
+            <div class="row  section_dark  intro">
+                <div class="homepage-hero-module">
+                    <div class="video-container">
+                        <div class="video_filter"></div>
+                        <video autoplay loop muted playsinline src="./video/med8.mp4" class="fillWidth"></video>
+                    </div>
+                </div>
+                <div class="row section_full intro_full">
+
+                    <div class="row intro_full__top">
+                        <div class="row header " id="top">
+                            <div class="container">
+                                <div class="row header_row">
+                                    <div class="header_left header_logo">
+                                        <style>
+                                            .header_logo .logo {
+                                                color: white;
+                                                display: flex;
+                                                font-size: 70px;
+                                                margin-top: -25px;
+                                            }
+                                        </style>
+                                        <a href="/" class="logo">
+                                            <!-- <img src="./images/logo_wht.svg"> -->А1-Мед
+                                        </a>
+                                        <div class="burger burger_menu burger_menu__page">
+                                            <a href="https://t.me/maryanovKA" target="_blank" class="insta_link"><img
+                                                    src="./images/telegram.svg" alt="telegram"
+                                                    style="width:28px; display:inline-block"></a>
+                                            <p class="label"><span class="burger_title">Меню</span></p>
+                                            <span class="burger_body">
+                                                <span></span>
+                                                <span></span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <div class="header_right">
+                                        <div class="header_right__col">
+                                            <p class="label"><a href="https://t.me/maryanovKA" target="_blank"
+                                                    class="insta_link"><img src="./images/telegram.svg" alt="instagram"
+                                                        style="width:28px; display:inline-block"><span>Telegram</span></a>
+                                            </p>
+                                        </div>
+                                        <div class="header_right__col">
+                                            <p class="label">Телефон для связи</p>
+                                            <p class="big"><a href="tel:89202554914" class="phone">8 (922) 798-01-96</a>
+                                            </p>
+                                        </div>
+                                        <div class="header_right__col">
+                                            <p class="label">Надоели квизы</p>
+                                            <p class="big">
+                                                <span class="scroll link" data-href="#quiz">Расчет проекта</span>
+                                            </p>
+                                            <p class="last">Реальный онлайн расчет,<br>за 1 минуту</p>
+                                        </div>
+                                        <div class="header_right__col">
+                                            <p class="big">
+                                                <span class="link" data-fancybox="" data-src="#recall">Заказать
+                                                    звонок</span>
+                                            </p>
+                                            <p class="label last">Чтим классику и традиции</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row intro_title">
                         <div class="container">
-                            <div class="row header_row">
-                                <div class="header_left header_logo">
-                                    <a href="/" class="logo">
-                                        <img src="./images/logo_wht.svg" alt="ТопМарка">
-                                    </a>
-                                    <div class="burger burger_menu burger_menu__page">
-                                        <a href="https://t.me/maryanovKA"
-                                            onclick="ym(53763592,'reachGoal','instagram'); return true;" target="_blank"
-                                            class="insta_link"><img src="./images/telegram.svg"
-                                                alt="telegram" style="width:28px; display:inline-block"></a>
-                                        <p class="label"><span class="burger_title">Меню</span></p>
-                                        <span class="burger_body">
-                                            <span></span>
-                                            <span></span>
-                                        </span>
+                            <div class="intro_title__row">
+                                <div class="intro_title__content">
+                                    <div class="row ">
+                                        <div class="row">
+                                            <h1>Разработка сайтов, концепкии, маркетинга для медицинских клиник и
+                                                лабораторий</h1>
+                                        </div>
                                     </div>
+
+                                    <div class="row intro_title__links animation_point__top" data-time="200">
+                                        <ul>
+                                            <li><a href="" data-href="#block-1" class="scroll link">Что Вы получите</a>
+                                            </li>
+                                            <li><a href="" data-href="#works" class="scroll link">Примеры работ</a></li>
+                                            <li><a href="" data-href="#block-2" class="scroll link">Процесс
+                                                    разработки</a>
+                                            </li>
+                                            <li><a href="" data-href="#block-3" class="scroll link">Комплекс услуг и
+                                                    цены</a></li>
+                                        </ul>
+                                    </div>
+
                                 </div>
-                                <div class="header_right">
-                                    <div class="header_right__col">
-                                        <p class="label"><a href="https://t.me/maryanovKA" target="_blank"
-                                                onclick="ym(53763592,'reachGoal','instagram'); return true;"
-                                                class="insta_link"><img src="./images/telegram.svg"
-                                                    alt="instagram"
-                                                    style="width:28px; display:inline-block"><span>Telegram
-                                                    <br>руководителя</span></a></p>
-                                    </div>
-                                    <div class="header_right__col">
-                                        <p class="label">Телефон для связи</p>
-                                        <p class="big"><a href="tel:89202554914" class="phone">8 (920) 255-49-14</a></p>
-                                        <p class="last"><a href="mailto:info@topmarka1.ru" class="email"><span
-                                                    class="icon icon-email"></span><span
-                                                    class="text">info@topmarka1.ru</span></a></p>
-                                    </div>
-                                    <div class="header_right__col">
-                                        <p class="label">Надоели квизы</p>
-                                        <p class="big">
-                                            <span class="scroll link" data-href="#quiz">Расчет проекта</span>
-                                        </p>
-                                        <p class="last">Реальный онлайн расчет,<br>за 1 минуту</p>
-                                    </div>
-                                    <div class="header_right__col">
-                                        <p class="big">
-                                            <span class="link" data-fancybox="" data-src="#recall">Заказать
-                                                звонок</span>
-                                        </p>
-                                        <p class="label last">Чтим классику и традиции</p>
-                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row intro_full__bottom">
+                        <div class="container">
+                            <div class="row  section">
+                                <div class="row">
+                                    <p class="h3 last">
+                                        Мы помогаем владельцам клиник зарабатывать больше. Увеличиваем загрузку врачей,
+                                        при
+                                        уменьшении затрат на маркетинг. <br />Экономьте на рекламе и маркетинге с нами.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div class="row intro_title">
-                    <div class="container">
-                        <div class="intro_title__row">
-                            <div class="intro_title__content">
-                                <div class="row ">
-                                    <div class="row">
-                                        <h1>Создание сайта для медицинской клиники</h1>
-                                    </div>
-                                </div>
-
-                                <div class="row intro_title__links animation_point__top" data-time="200">
-                                    <ul>
-                                        <li><a href="" data-href="#block-1" class="scroll link">Что Вы получите</a></li>
-                                        <li><a href="" data-href="#works" class="scroll link">Примеры работ</a></li>
-                                        <li><a href="" data-href="#block-2" class="scroll link">Процесс разработки</a>
-                                        </li>
-                                        <li><a href="" data-href="#block-3" class="scroll link">Комплекс услуг и
-                                                цены</a></li>
-                                    </ul>
-                                </div>
-
-                            </div>
-
-
-
-                            <div class="intro_title__quotes slider_block">
-                                <div class="row quotes_dots slider_dots"></div>
-                                <div class="row quotes_slider">
-
-
-                                    <div class="slide_q">
-                                        <p>Самый простой способ предсказать будущее, это создать его</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/druker.jpg" alt="">
-                                            <span>П. Друкер</span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>Хорошая реклама образовывает людей, только и всего... Продукты говорят сами
-                                            за себя.</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/sjobs.jpg" alt="">
-                                            <span>С. Джобс</span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>В каждой ситуации есть один шаг, который дает наибольший результат</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/vish.jpg" alt="">
-                                            <span></span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>Если Вашего бизнеса нет в интернете, то у Вас нет бизнеса</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/billgates.jpg" alt="">
-                                            <span>Б. Гейтс</span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>В Интернете самое главное – слова и воображение.</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/vish.jpg" alt="">
-                                            <span>Я. Вишневский</span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>Нельзя вечно ждать подходящего момента, надо просто создать его</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/sjobs.jpg" alt="">
-                                            <span></span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>Идеи представляют собой ключ к будущему</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/sjobs.jpg" alt="">
-                                            <span></span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>Вести бизнес без рекламы – все равно что подмигивать девушкам в полной
-                                            темноте</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/britt.jpg" alt="">
-                                            <span>С. Бритт</span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>Реклама есть искусство целиться в голову, чтобы попасть в карман</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/vanspack.jpg" alt="">
-                                            <span>В. Пакард</span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>Реклама — искусная смесь комплиментов и угроз</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/fray.jpg" alt="">
-                                            <span>Н. Фрай</span>
-                                        </p>
-                                    </div>
-
-
-
-                                    <div class="slide_q">
-                                        <p>Не конкурируйте с вашим рекламным агентством в творчестве. Зачем держать
-                                            собаку и самому лаять?</p>
-                                        <p class="last quotes_author">
-                                            <img src="template/topmarka/img/britt.jpg" alt="">
-                                            <span></span>
-                                        </p>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row intro_full__bottom">
-                    <div class="container">
-                        <div class="row  section">
-                            <div class="row">
-                                <p class="h3 last">Рост посетителей, финансовая модель, увеличение прибыли и
-                                    лидогенерация качественных заявок на прием к врачу. Полная разработка маркетинг
-                                    плана и тонкая SEO оптимизация, для выхода в ТОП. <br />Звоните, и мы расскажем
-                                    чуточку больше ...</p>
-                            </div>
-                            <div class="row breadcrumbs">
-                                <ul itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
-                                    <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-                                        itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span
-                                                itemprop="name">Главная</span></a>
-                                        <meta itemprop="position" content="1" />
-                                    </li><span class="icon icon-arrow-right"></span>
-                                    <li class="breadcrumb-item active">Сайт клиники</li>
-                                </ul>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
+            <!-- END SECTION-1 -->
+
+            <!-- SECTION-2 -->
+            <div class="row section section_grey" id="block-3">
+                <div class="container">
+                    <div class="row">
+                        <p class="h2">Перечень основных работ, для запуска медицинской организации в интернете</p>
+                    </div>
+                    <div class="row">
+                        <div class="row_inner dop_list">
+                            <div class="col_6 col_pad dop_list__item dop_list__item-1">
+                                <div class="row services_page__block">
+                                    <div class="row services_page__block-top">
+                                        <div class="col_6 dop_title">
+                                            Создание сайта
+                                        </div>
+                                        <div class="col_6">
+                                            <div class="dop_info">
+                                                <p class="dop_info__time">от 15 дней</p>
+                                                <p class="dop_info__price">78 000 <span class="small">руб</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row dop_footer">
+                                        <div class="col_6">
+                                            <span class="button button_big button_fluid button_purple button_radius"
+                                                data-fancybox="" data-src="#recall" data-name="Создание сайта">Заказать
+                                                сайт</span>
+
+
+                                        </div>
+                                    </div>
+                                    <span class="dop_img"><img src="./images/daxplv-2020-02-23.png"
+                                            alt="Создание сайта"></span>
+                                </div>
+                            </div>
+                            <div class="col_6 col_pad dop_list__item dop_list__item-2">
+                                <div class="row services_page__block">
+                                    <div class="row services_page__block-top">
+                                        <div class="col_6 dop_title">
+                                            SEO оптимизация
+                                        </div>
+                                        <div class="col_6">
+                                            <div class="dop_info">
+                                                <p class="dop_info__time">от 45 дней</p>
+                                                <p class="dop_info__price">от 29 000 <span class="small">руб</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row dop_footer">
+                                        <div class="col_6">
+                                            <span class="button button_big button_fluid button_purple button_radius"
+                                                data-fancybox="" data-src="#recall" data-name="SEO оптимизация">Заказать
+                                                консультацию</span>
+
+
+                                        </div>
+                                    </div>
+                                    <span class="dop_img"><img src="./images/umkqvy-2020-02-23.png"
+                                            alt="SEO оптимизация"></span>
+                                </div>
+                            </div>
+                            <div class="col_6 col_pad dop_list__item dop_list__item-3">
+                                <div class="row services_page__block">
+                                    <div class="row services_page__block-top">
+                                        <div class="col_6 dop_title">
+                                            Сайт на шаблоне
+                                        </div>
+                                        <div class="col_6">
+                                            <div class="dop_info">
+                                                <p class="dop_info__time">4 дня</p>
+                                                <p class="dop_info__price">от 32 000 <span class="small">руб</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row dop_footer">
+                                        <div class="col_6">
+                                            <span class="button button_big button_fluid button_purple button_radius"
+                                                data-fancybox="" data-src="#recall" data-name="Сайт на шаблоне">Обсудить
+                                                детали</span>
+
+
+                                        </div>
+                                    </div>
+                                    <span class="dop_img"><img src="./images/513x4o-2020-02-23.png"
+                                            alt="Сайт на шаблоне"></span>
+                                </div>
+                            </div>
+                            <div class="col_6 col_pad dop_list__item dop_list__item-4">
+                                <div class="row services_page__block">
+                                    <div class="row services_page__block-top">
+                                        <div class="col_6 dop_title">
+                                            Продвижение в соц.сетях
+                                        </div>
+                                        <div class="col_6">
+                                            <div class="dop_info">
+                                                <p class="dop_info__time">от 60 дней</p>
+                                                <p class="dop_info__price">по запросу <span class="small">руб</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row dop_footer">
+                                        <div class="col_6">
+                                            <span class="button button_big button_fluid button_purple button_radius"
+                                                data-fancybox="" data-src="#recall"
+                                                data-name="Продвижение в соц.сетях">Консультация</span>
+
+
+                                        </div>
+                                    </div>
+                                    <span class="dop_img"><img src="./images/d4.png"
+                                            alt="Продвижение в соц.сетях"></span>
+                                </div>
+                            </div>
+                            <div class="col_6 col_pad dop_list__item dop_list__item-5">
+                                <div class="row services_page__block">
+                                    <div class="row services_page__block-top">
+                                        <div class="col_6 dop_title">
+                                            Корпоративный стиль
+                                        </div>
+                                        <div class="col_6">
+                                            <div class="dop_info">
+                                                <p class="dop_info__time">от 15 дней</p>
+                                                <p class="dop_info__price">от 42 000 <span class="small">руб</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row dop_footer">
+                                        <div class="col_6">
+                                            <span class="button button_big button_fluid button_purple button_radius"
+                                                data-fancybox="" data-src="#recall"
+                                                data-name="Корпоративный стиль">Заказать брендбук</span>
+
+
+                                        </div>
+                                    </div>
+                                    <span class="dop_img"><img src="./images/f9mwb2-2020-03-11.png"
+                                            alt="Корпоративный стиль"></span>
+                                </div>
+                            </div>
+                            <div class="col_6 col_pad dop_list__item dop_list__item-6">
+                                <div class="row services_page__block">
+                                    <div class="row services_page__block-top">
+                                        <div class="col_6 dop_title">
+                                            Комплексный маркетинг
+                                        </div>
+                                        <div class="col_6">
+                                            <div class="dop_info">
+                                                <p class="dop_info__time">от 30 дней</p>
+                                                <p class="dop_info__price">по запросу <span class="small">руб</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row dop_footer">
+                                        <div class="col_6">
+                                            <span class="button button_big button_fluid button_purple button_radius"
+                                                data-fancybox="" data-src="#recall"
+                                                data-name="Комплексный маркетинг">Узнать что получу</span>
+
+
+                                        </div>
+                                    </div>
+                                    <span class="dop_img"><img src="./images/r1psfw-2020-02-23.png"
+                                            alt="Комплексный маркетинг"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END SECTION-2 -->
+
+            <!-- SECTION-3 -->
+            <div class="row section section_grey site2">
+                <div class="container">
+                    <div class="marketolog">
+                        <div class="marketolog__1">Нет пациентов или недостаточный пациентопоток в клинике?</div>
+                        <div class="marketolog__2">Коучинговая программа</div>
+                        <div class="marketolog__3">Маркетолог «под ключ»</div>
+                        <div class="marketolog__4">Для владельцев, руководителей и маркетологов медицинских клиник,
+                            стоматологий и центров красоты</div>
+                        <button class="marketolog__button">Оставить заявку</button>
+                        <ul class="marketolog__cards">
+                            <li><strong>21 урок - 2,5 месяца полного погружения</strong><br>в управленческий,
+                                стратегический и операционный маркетинг </li>
+                            <li><strong>ОНЛАЙН-курс с живыми занятиями с экспертами</strong></li>
+                        </ul>
+                        <div class="marketolog__photo">
+                            <img src="./images/marketolog.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END SECTION-3 -->
+
+            <!-- SECTION-3 -->
+            <div class="row section section_grey site3">
+                <div class="container">
+                    <div class="examples">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img class="swiper-slide" data-fancybox="examples"
+                                        href="./images/examples1.png" src="./images/examples1.png" alt=""></div>
+                                <div class="swiper-slide"><img class="swiper-slide" data-fancybox="examples"
+                                        href="./images/examples2.webp" src="./images/examples2.webp" alt=""></div>
+                                <div class="swiper-slide"><img class="swiper-slide" data-fancybox="examples"
+                                        href="./images/examples3.webp" src="./images/examples3.webp" alt=""></div>
+                                <div class="swiper-slide"><img class="swiper-slide" data-fancybox="examples"
+                                        href="./images/examples4.png" src="./images/examples4.png" alt=""></div>
+                                <div class="swiper-slide"><img class="swiper-slide" data-fancybox="examples"
+                                        href="./images/examples5.webp" src="./images/examples5.webp" alt=""></div>
+
+
+
+
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                        <div class="examples__right">
+                            <h3>Почему нам можно доверять</h3>
+                            <p>От 10.000 до 265.000 потенциальных клиентов в месяц? Это реальность!</p>
+                            <p>Показываем наши результаты на примере кейса с клиники “Наджа”</p>
+                            <p>До того как мы взялись за этот проект у сайта и сети клиник было мало посетителей. К
+                                примеру
+                                в месяц на сайт заходило <b>10 000 посетителей</b> Следовательно: малая загруженность
+                                врачей,
+                                низкие доходы клиник и так далее.</p>
+                            <p>После того как мы сделали всё от концепции до реализации и настройки всего трафика,
+                                клиника
+                                вышла на более <b>205 000</b> посетителей в месяц</p>
+                            <button>Связаться с нами</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- END SECTION-3 -->
 
         </div>
     </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/fancybox.js"></script>
+    <script src="js/swiper.js"></script>
     <script src="js/app.js"></script>
 </body>
 

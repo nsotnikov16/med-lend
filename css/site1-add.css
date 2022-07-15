@@ -2630,3 +2630,20 @@ p.cit {
         margin-bottom: 1em;
     }
 }
+
+
+
+
+
+.site1 h1 {
+    color: white;
+}
+
+.site1 a.phone {
+    color: white;
+}
+
+.site1 span.link,
+.site1 a.link {
+    color: white
+}

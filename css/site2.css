@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "MyriadPro";
+    font-display: swap;
+    src: url(../fonts/MYRIADPRO-REGULAR.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro";
+    font-display: swap;
+    src: url(../fonts/MYRIADPRO-BOLD.woff2) format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro";
+    font-display: swap;
+    src: url(../fonts/MYRIADPRO-SEMIBOLD.woff2) format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+.site2 .marketolog {
+    font-family: 'MyriadPro';
+}
+
+.site2 .marketolog__1 {
+    color: #000000;
+    font-size: 27px;
+    line-height: 1.15;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    margin-bottom: 10px;
+    max-width: 600px;
+}
+
+.site2 .marketolog__2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 510px;
+}
+
+.site2 .marketolog__3 {
+    color: #db5c69;
+    font-size: 60px;
+    line-height: 1.25;
+    max-width: 800px;
+    font-weight: 700;
+}
+
+.site2 .marketolog__4 {
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.55;
+    font-weight: 400;
+    max-width: 490px;
+}
+
+.site2 .marketolog__button {
+    width: 250px;
+    height: 55px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'MyriadPro', Arial, sans-serif;
+    line-height: 1.55;
+    font-weight: 600;
+    border-width: 2px;
+    border-radius: 10px;
+    background-color: #db5c69;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+.site2 .marketolog__button:hover {
+    background-color: #f2f2f2;
+    background-image: none;
+    border-color: #db5c69;
+    color: #db5c69;
+}
+
+.site2 .marketolog__cards {
+    display: grid;
+    grid-template-columns: 360px 360px;
+    gap: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.site2 .marketolog__cards li {
+    border-radius: 10px;
+    background-color: #ffffff;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    box-shadow: 0px 0px 20px 0px rgb(219 92 105 / 20%);
+    padding: 30px 20px 30px 70px;
+    color: #000000;
+    font-size: 18px;
+    position: relative;
+}
+
+.site2 .marketolog__cards li::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    display: block;
+    background-image: url(../images/CheckCircle_1.svg);
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+
+.site2 .marketolog__cards li strong {
+    color: #000000;
+    font-size: 25px;
+    line-height: 1.55;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.site2 .marketolog__photo {
+    position: absolute;
+    top: -50px;
+    right: -70px;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    /* border-radius: 50%; */
+    background-color: white;
+    z-index: -1;
+    
+}
+
+.site2 .marketolog__photo img {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 50% 50%;
+}
