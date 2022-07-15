@@ -941,7 +941,8 @@ button:active {
 }
 
 .button_purple {
-    background: #8A48B8;
+    /* background: #8A48B8; */
+    background: #5A79E9;;
     color: #fff
 }
 
@@ -6166,7 +6167,7 @@ canvas#webgl_fluid {
     background: #8A48B8
 }
 
-@font-face {
+/* @font-face {
     font-family: 'icomoon';
     src: url("../../../public/libs/icomoon/fonts/icomoon.eot?k86nmv");
     src: url("../../../public/libs/icomoon/fonts/icomoon.eot?k86nmv#iefix") format("embedded-opentype"), url("../../../public/libs/icomoon/fonts/icomoon.ttf?k86nmv") format("truetype"), url("../../../public/libs/icomoon/fonts/icomoon.woff?k86nmv") format("woff"), url("../../../public/libs/icomoon/fonts/icomoon.svg?k86nmv#icomoon") format("svg");
@@ -6278,7 +6279,7 @@ canvas#webgl_fluid {
 
 .icon-whatsapp:before {
     content: "\ea93"
-}
+} */
 /* 
 .fancybox-enabled {
     overflow: hidden

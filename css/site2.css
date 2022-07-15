@@ -46,7 +46,7 @@
 }
 
 .site2 .marketolog__3 {
-    color: #db5c69;
+    color: #5A79E9;;
     font-size: 60px;
     line-height: 1.25;
     max-width: 800px;
@@ -71,7 +71,7 @@
     font-weight: 600;
     border-width: 2px;
     border-radius: 10px;
-    background-color: #db5c69;
+    background-color: #5A79E9;;
     background-position: center center;
     border-color: transparent;
     border-style: solid;
@@ -82,8 +82,8 @@
 .site2 .marketolog__button:hover {
     background-color: #f2f2f2;
     background-image: none;
-    border-color: #db5c69;
-    color: #db5c69;
+    border-color: #5A79E9;;
+    color: #5A79E9;;
 }
 
 .site2 .marketolog__cards {

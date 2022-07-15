@@ -2647,3 +2647,38 @@ p.cit {
 .site1 a.link {
     color: white
 }
+
+
+.portfolio__info {
+    margin-top: 30px;
+    padding: 60px 20px 0;
+    z-index: 19;
+    color: #000;
+}
+
+.portfolio__name {
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    z-index: 20;
+}
+
+.portfolio__description {
+    text-align: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 21;
+}
+
+.portfolio .bg {
+    z-index: -1;
+}
+
+.portfolio_item a span.bg_img {
+    top: 35%;
+    background-position: top center;
+    background-size: cover;
+}

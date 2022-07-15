@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+.header__telegram {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon_telegram.svg);
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: 30px;
+}
+
+.header__whatsapp {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon_whatsapp.svg);
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: 30px;
+}
+
+.header__viber {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../images/icon_viber.svg);
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: 30px;
+}
+
+.footer__background {
+    font-family: 'Manrope', sans-serif;
+    min-height: 100px;
+    background-color: #5A79E9;
+
+}
+
+.footer__container {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* max-width: 1160px; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    
+}
+
+.footer__container::after {
+    content: initial;
+}
+
+.footer__container p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.footer__container ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+}
+
+.footer__container ul li {
+    list-style-type: none;
+}
+
+.footer__tel {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 12px;
+}
+
+@media(max-width: 850px) {
+    .footer__container p {
+        text-align: center;
+    }
+
+    .footer__container {
+        padding-top: 15px;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width: 480px) {
+    .footer__tel {
+        font-size: 18px;
+    }
+ }
+
+ @media(max-width: 425px) {
+    .footer__container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
