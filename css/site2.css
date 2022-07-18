@@ -46,7 +46,8 @@
 }
 
 .site2 .marketolog__3 {
-    color: #5A79E9;;
+    color: #5A79E9;
+    ;
     font-size: 60px;
     line-height: 1.25;
     max-width: 800px;
@@ -71,7 +72,8 @@
     font-weight: 600;
     border-width: 2px;
     border-radius: 10px;
-    background-color: #5A79E9;;
+    background-color: #5A79E9;
+    ;
     background-position: center center;
     border-color: transparent;
     border-style: solid;
@@ -82,8 +84,10 @@
 .site2 .marketolog__button:hover {
     background-color: #f2f2f2;
     background-image: none;
-    border-color: #5A79E9;;
-    color: #5A79E9;;
+    border-color: #5A79E9;
+    ;
+    color: #5A79E9;
+    ;
 }
 
 .site2 .marketolog__cards {
@@ -139,10 +143,10 @@
     width: 600px;
     height: 600px;
     overflow: hidden;
-    /* border-radius: 50%; */
-    background-color: white;
+    background-color: rgb(90 121 233 / 10%);
     z-index: -1;
-    
+    border-radius: 50%;
+
 }
 
 .site2 .marketolog__photo img {
@@ -192,6 +196,7 @@
     .site2 .marketolog__cards {
         grid-template-columns: 1fr;
     }
+
     .site2 .marketolog__button {
         width: 300px;
         height: 70px;
@@ -207,10 +212,12 @@
         grid-row: 5/6;
         margin-bottom: -50px;
         margin-left: -45px;
+        background-color: transparent;
     }
 
     .site2 .marketolog__3 {
-        color: #5A79E9;;
+        color: #5A79E9;
+        ;
         font-size: 45px;
         line-height: 1.25;
         max-width: 800px;
@@ -220,6 +227,6 @@
 
 @media(max-width: 400px) {
     .site2 .marketolog__photo {
-      width: 100%;
+        width: 100%;
     }
 }
