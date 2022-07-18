@@ -488,7 +488,7 @@ body.lock {
     background: rgba(138, 72, 184, 0.2)
 }
 
-.preloader {
+/* .preloader {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -511,7 +511,7 @@ body.lock {
     -ms-flex-pack: center;
     justify-content: center;
     z-index: 999999
-}
+} */
 
 .lock {
     overflow: hidden;
@@ -9546,10 +9546,10 @@ a.ui-button:active,
         display: none !important
     }
 
-    .preloader svg {
+    /* .preloader svg {
         width: 60%;
         height: auto
-    }
+    } */
 
     .intro_full__bottom .section {
         padding-top: 0;

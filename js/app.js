@@ -1,20 +1,3 @@
-/* $(function () {
-    $("[data-fancybox]").fancybox({
-        touch: true,
-        preload: true,
-        loop: true,
-        afterShow: function (e, t) {
-            $(".popup").addClass("show"),
-                $(".form_success").each(function () {
-                    var e = $(this).closest(".form").find("form").outerHeight();
-                    $(this).css("height", e);
-                });
-        },
-        beforeClose: function (e, t) {
-            $(".popup").removeClass("show");
-        },
-    });
-}); */
 
 var swiperExamples = new Swiper('.examples .swiper', {
     loop: true,

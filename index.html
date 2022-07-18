@@ -12,7 +12,25 @@
     <title>Медицинский сайт</title>
 </head>
 
-<body>
+<body class="loading">
+
+    <div class="preloader">
+        <div class="lds-default">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
     <div class="page">
         <!-- https://topmarka1.ru/site-medcentra -->
 
@@ -378,8 +396,7 @@
                         </div>
                         <div class="row portfolio_list">
                             <div class="col_20 portfolio_item" style="background-color:  #BCD3FF;">
-                                <a
-                                    href="#">
+                                <a href="#">
                                     <span class="bg_img" style="background-image: url(./images/nadja.png);"></span>
                                     <span class="bg" style="background-color: #92B9D4"></span>
                                     <span class="tags position-top">
@@ -426,8 +443,7 @@
                                 </a>
                             </div>
                             <div class="col_20 portfolio_item" style="background-color:  #BCD3FF;">
-                                <a
-                                    href="#">
+                                <a href="#">
                                     <span class="bg_img" style="background-image: url(./images/nadja.png);"></span>
                                     <span class="bg" style="background-color: #92B9D4"></span>
                                     <span class="tags position-top">
@@ -634,8 +650,8 @@
                         </div>
                         <div class="row form_politic checkbox">
                             <input type="checkbox" name="politic" id="politic-65a8s1das566212562" class=""
-                                checked=""><label for="politic-65a8s1das566212562"><span></span>Согласен с <a
-                                    href="#" class="link" target="_blank">правилами</a> обработки персональных
+                                checked=""><label for="politic-65a8s1das566212562"><span></span>Согласен с <a href="#"
+                                    class="link" target="_blank">правилами</a> обработки персональных
                                 данных</label>
                         </div>
                     </div>
@@ -801,8 +817,7 @@
                             <div class="mobile_nav__col">
                                 <div class="row" style="margin-bottom:20px;">
                                     <p class="label">Написать на почту</p>
-                                    <p class="big last"><a href="mailto:"
-                                            class="phone">info@topmarka1.ru</a></p>
+                                    <p class="big last"><a href="mailto:" class="phone">info@topmarka1.ru</a></p>
                                 </div>
                             </div>
                         </div>
@@ -845,6 +860,13 @@
     </div>
     <!--     <script src="js/jquery.js"></script>-->
     <!-- <script src="js/fancybox.js"></script> -->
+    <script>
+        window.onload = () => {
+            document.body.classList.remove('loading')
+        }
+    </script>
+
+
     <script src="js/swiper.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/main.min.js"></script>
