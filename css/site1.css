@@ -249,6 +249,10 @@ iframe {
     padding: 0 10px
 }
 
+.page {
+    overflow: hidden;
+}
+
 a {
     color: #5A79E9;
     text-decoration: none;

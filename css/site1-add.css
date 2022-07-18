@@ -2684,3 +2684,13 @@ p.cit {
     background-position: top center;
     background-size: cover;
 }
+
+@media(max-width: 767px) {
+    .section {
+        padding-top: 40px;
+    }
+}
+
+.header_fixed.fixed {
+    z-index: 9999;
+}

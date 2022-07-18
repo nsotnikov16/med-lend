@@ -76,3 +76,38 @@ input[type='text'] {
 .action .btn:hover {
     background: #ecb964;
 }
+
+@media(max-width: 1170px) {
+    .action-wrap {
+        padding: 45px 35px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .action h2, .action p {
+        text-align: center;
+    }
+}
+
+@media(max-width: 900px) {
+    .form-submit-actions-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .action .btn {
+        grid-column: initial;
+    }
+}
+
+@media(max-width: 767px) {
+    .action h2 {
+        font-size: 35px;
+    }
+
+    .action-wrap {
+        padding: 40px 30px;
+    }
+}
+
+
+
